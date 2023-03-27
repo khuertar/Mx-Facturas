@@ -17,6 +17,7 @@
 # Importante :warning:
 El lenguaje que se ocupara para el proyecto es ingles ya que los nombres de variables, archivos, funciones, etc.. son mas faciles de entender y mas facil de abreviar.
 
+
 * Se ocupara __camelCase__ para nombre de variables, clases, funciones, id, nombre de imagenes.
 * Para archivos base de datos se ocupara el guion bajo para evitar espacio nombre_carpetas esto para nombre de columnas.
 
@@ -27,6 +28,9 @@ funcion __agregar_nuevo_usuario__ cambia por __addUser__
 funcion __borrar_usuario__ cambia por __deleteUser__
 
 funcion __actualizar_Usuario__ cambia por __updateUser__
+
+# Bootstrap
+Para avanzar rapido en el proyecto se ocupara este framework y sus componentes.
 
 
 # Carpeta PHP
