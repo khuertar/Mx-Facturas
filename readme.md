@@ -1,6 +1,42 @@
 # Actualizacion intranet Facturas
 
-> :warning: Por favor lea el README para entender la configuración del ambiente de trabajo.
+:warning: Por favor lea el README para entender la configuración del ambiente de trabajo.
+
+# Configuracion del sitio :package:
+
+## Estructuras de carpetas para proyecto
+
+* php
+* src
+  * img
+  * js
+  * css
+  * sass
+* Pages
+
+# Importante :warning:
+El lenguaje que se ocupara para el proyecto es ingles ya que los nombres de variables, archivos, funciones, etc.. son mas faciles de entender y mas facil de abreviar.
+
+* Se ocupara __camelCase__ para nombre de variables, clases, funciones, id, nombre de imagenes.
+* Para archivos base de datos se ocupara el guion bajo para evitar espacio nombre_carpetas esto para nombre de columnas.
+
+Ejemplo: 
+
+funcion __agregar_nuevo_usuario__ cambia por __addUser__
+
+funcion __borrar_usuario__ cambia por __deleteUser__
+
+funcion __actualizar_Usuario__ cambia por __updateUser__
+
+
+# Carpeta PHP
+Para este proyecto se usara PHP sin MVC, esta carpeta contendra, aqui se encontraran paginas para reutilizar como menus, footer, conexion a BD.
+
+# Carpeta SRC
+Estara el cotenido de las carpetas como imagenes, js, css y sass
+
+# Carpeta Pages
+donde estaran las secciones del sitio web
 
 # Carpeta Javascript JS
 
@@ -8,7 +44,9 @@
 Dentro de esta carpeta se colocaran todas las librerias ocupadas dentro del proyecto, asi mismo deberam ser indentificadas cada uno dentro de la carpeta correspondiente.
 
 * Nombre_Carpeta => boostrap.js
-* Nombre_Carpeta => sweetAlert2.js
+* Nombre_Carpeta => sweetAlert2.
+
+En caso de no querer usar la carpeta LIB ocupar librerias CDNJS https://cdnjs.com/
 
 # Carpeta SASS
 
